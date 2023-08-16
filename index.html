@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/fave01.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <title>Project-audio</title>
+</head>
+<body>
+    <header><h1>Audio Track</h1></header>
+    
+    <section>
+
+        <div class="card-audio">
+            <img id="img" src="./assets/MV5BZGViMDc2YTEtNzE0ZC00MTEyLTg2ZjItMDhmZjJlY2MyZmFhXkEyXkFqcGdeQXVyMjA4OTI5NDQ@._V1_.jpg">
+            <div class="descricao">
+            <h4 id="h4">Artista</h4>    
+            <p>smooth operator</p>
+            </div>
+
+        <div class="duracao">
+            <div class="barra">
+                <progress id="progr" value="0" max="1"></progress>
+                <div class="ponto"></div>
+            </div>
+        </div>
+       <div class="tempo">
+        <p class="inicio">0:00</p>
+        <p class="fim">00:00</p>
+       </div>
+        
+        <div class="player">
+        <img id="seta-esquerda" src="./assets/images/step-backward.png">
+        <img onclick="comecar()" id="play" src="/assets/images/play (1).png">
+        <img onclick="pararMusica()" id="pause" src="./assets/images/pause.png">
+        <img id="seta-direita" src="./assets/images/step-forward.png">
+
+        </div>
+
+
+
+
+        <audio src="./assets/musicas/Sade - Smooth Operator (Tech House Remix).mp3"></audio>
+        </div>
+
+     
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

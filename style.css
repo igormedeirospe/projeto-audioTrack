@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(0, 20, 0, 0.795);
+}
+header{
+    text-align: center;
+    max-width: 100%;
+    color: #fff;
+    background-color: #1eff002f;
+}
+.card-audio{
+    margin: auto;
+    margin-top: 100px;
+    max-width: 400px;
+    height: 550px;
+    background-color: #00000067;
+    border-radius: 10px;
+    text-align: center;
+}
+.descricao{
+    margin-right: 0%;
+    max-width: 280px;
+    margin-top: 12px;
+    margin-bottom: 9px;
+}
+#h4{
+    margin-right: 75px;
+    margin-bottom: 1px;
+}
+h4{
+    color: #fff;
+    
+}
+p{
+    color: #fff;
+    font-weight: bold;
+}
+#img{
+    max-width: 240px;
+    margin-top: 6%;
+    border-radius: 10px;
+    
+}
+.tempo{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 20px;
+}
+.duracao{
+    max-width: 300px;
+    margin: auto;
+}
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+progress{
+    height: 6px;
+    width: 0%;
+    background-color: #333;
+}
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+#seta-esquerda{
+    max-width: 60px;
+}
+.player{
+    align-items: center;
+    margin-top: 5px;
+}
+#play{
+    max-width: 67px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#pause{
+    max-width: 67px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+}
+#seta-direita{
+    max-width: 60px;
+}
+
+#seta-esquerda:hover{
+    cursor: pointer;
+}
+
+#play:hover{
+    cursor: pointer;
+}
+#seta-direita:hover{
+    cursor: pointer;
+}
